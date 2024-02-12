@@ -10,9 +10,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get environment variables
-bot_token = os.getenv('BOT_TOKEN')  # Bot token from Telegram API
-api_key = os.getenv('API_KEY')  # API key for OpenAI
-chat_id = os.getenv('CHAT_ID')  # ID of the chat where the bot will send messages
+bot_token = '6752366715:AAHhnE8qgHTsdd9RfgmDj4bAxa-IEiLIC_w'  # Bot token from Telegram API
+api_key =   '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' # API key for OpenAI
+chat_id = '-1002007363503'  # ID of the chat where the bot will send messages
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
